@@ -12,7 +12,7 @@ $ npm install tslint-config-lei --save-dev
 ```json
 {
   "extends": [
-    "lei"
+    "tslint-config-lei"
   ],
   "rules": { }
 }
