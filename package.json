@@ -1,0 +1,24 @@
+{
+  "name": "tslint-config-lei",
+  "version": "1.0.0",
+  "description": "lei style tslint config",
+  "main": "tslint.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leizongmin/tslint-config-lei.git"
+  },
+  "keywords": [
+    "tslint",
+    "config",
+    "lei"
+  ],
+  "author": "Zongmin Lei <leizongmin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leizongmin/tslint-config-lei/issues"
+  },
+  "homepage": "https://github.com/leizongmin/tslint-config-lei#readme"
+}
