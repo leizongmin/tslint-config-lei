@@ -32,21 +32,11 @@
       true,
       {
         "order": [
-          "protected-static-field",
-          "private-static-field",
-          "public-static-field",
-          "private-static-method",
-          "protected-static-method",
-          "public-static-method",
-          "private-instance-field",
-          "protected-instance-field",
-          "public-instance-field",
-          "private-constructor",
-          "protected-constructor",
-          "public-constructor",
-          "private-instance-method",
-          "protected-instance-method",
-          "public-instance-method"
+          "static-field",
+          "static-method",
+          "instance-field",
+          "constructor",
+          "instance-method"
         ]
       }
     ],
@@ -84,7 +74,12 @@
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
     "no-unused-expression": true,
-    "no-unused-variable": true,
+    "no-unused-variable": [
+      true,
+      {
+        "ignore-pattern": "^_"
+      }
+    ],
     "no-use-before-declare": true,
     "no-var-keyword": true,
     "no-var-requires": false,
