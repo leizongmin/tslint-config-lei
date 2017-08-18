@@ -12,7 +12,10 @@
       true,
       "check-space"
     ],
-    "curly": true,
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
     "eofline": true,
     "forin": false,
     "indent": [
@@ -27,9 +30,25 @@
     "member-access": false,
     "member-ordering": [
       true,
-      "public-before-private",
-      "static-before-instance",
-      "variables-before-functions"
+      {
+        "order": [
+          "protected-static-field",
+          "private-static-field",
+          "public-static-field",
+          "private-static-method",
+          "protected-static-method",
+          "public-static-method",
+          "private-instance-field",
+          "protected-instance-field",
+          "public-instance-field",
+          "private-constructor",
+          "protected-constructor",
+          "public-constructor",
+          "private-instance-method",
+          "protected-instance-method",
+          "public-instance-method"
+        ]
+      }
     ],
     "no-any": false,
     "no-arg": true,
@@ -142,6 +161,10 @@
       false
     ],
     "only-arrow-functions": [
+      false
+    ],
+    "space-before-function-paren": false,
+    "max-classes-per-file": [
       false
     ]
   }
