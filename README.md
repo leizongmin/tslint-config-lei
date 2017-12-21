@@ -1,4 +1,6 @@
 # tslint-config-lei
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/leizongmin/tslint-config-lei.svg)](https://greenkeeper.io/)
 tslint config
 
 ## 安装
